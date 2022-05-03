@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Resume</title>
+    <script>
+        function Menu() {
+            var x = document.getElementById("idsidebar");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class = "w3-bar"style="background-color: #D6EAF8">
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Profile</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Education</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Work Experience</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Languages</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Skills</a>
+        <a href="javascript:void(0)" class = "w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"  onclick= "Menu()">&#9776</a>
+    </div>
+    <div id= "idsidebar" class = "w3-bar-block w3-Blue w3-hide w3-hide-large">
+        <a href="#" class = "w3-bar-item w3-button w3-left">Profile</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Education</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Work Experience</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Languages</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Skills</a>
+    </div>
+    
+    <header class="w3-header w3-container w3-padding-32 w3-center">
+        <h1>MY RESUME</h1>    
+    </header>
+
+    <div id="profile" class="w3-container w3-container w3-row">
+        <div class="profile w3-container"style="background-color: #D6EAF8">
+            <b><h2>Profile</h2></b>
+        </div>
+        <br>
+        <div class="w3-display-container">
+            <img src="photo jk.jpg" style="height: 150px; width: 115px;">
+        </div>
+
+            <div class="w3-container ">
+                <p><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-black"></i>Tan Jia Kee</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"></i>018-4055998</p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i>jktan1026@gmail.com</p>
+                <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>Sungai Jawi, Pulau Pinang.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="w3-container w3-container w3-row">
+        <div class="languages w3-container"style="background-color: #D6EAF8">
+                <b><h2>Education</h2></b>
+        </div>
+        
+        <div class="w3-container">
+            <b>Primary School</b>
+                <p>2007 - 2012</p>
+                <p>SJKC Kampung Valdor</p>
+                <hr>
+        </div>
+
+        <div class="w3-container">        
+            <b>Secondary School</b>
+                <p>2013 - 2017</p>
+                <p>SMK Kampung Valdor</p>
+                <p>Awarded certification of SPM</p>
+                <hr>
+        </div>
+
+        <div class="w3-container">
+            <b>Tertiary School</b>
+                <p>2018 - 2019</p>
+                <p>SMK Tunku Abdul Rahman</p>
+                <p>Awarded certification of STPM</p>
+                <hr>
+        </div>
+
+        <div class="w3-container">    
+                <b>Undergraduate</b>
+                <p>2020 - 2024</p>
+                <p>University Utara Malaysia (UUM)</p>
+                <p>Bachelor of Science with Honours (Information Technology)</p>
+                <hr>
+        </div>
+ 
+    <div id="WorkExperience" class="w3-container w3-container w3-row">
+        <div class="WorkExperience w3-container"style="background-color: #D6EAF8">
+                <b><h2>Work Experience</h2></b>
+        </div>
+        
+        <div class="w3-container">
+            <b>Manager Assistant</b>
+            <p><i class="fa fa-clock-o fa-fw w3-margin-right w3-large w3-text-black"></i>Jan 2020 - September 2020</p>
+            <p><i class="fa fa-building fa-fw w3-margin-right w3-large w3-text-black"></i>Intertrive Sdn Bhd, Selangor</p>
+            <hr>
+        </div>
+
+        <div class="w3-container">
+            <b>Online Sales Assistant</b>
+            <p><i class="fa fa-clock-o fa-fw w3-margin-right w3-large w3-text-black"></i>Feb 2021 - June 2021</p>
+            <p><i class="fa fa-building fa-fw w3-margin-right w3-large w3-text-black"></i>SVO Group, Johor Bahru</p>
+            <hr>
+        </div>
+
+        <div class="w3-container">
+            <b>Waitress</b>
+            <p><i class="fa fa-clock-o fa-fw w3-margin-right w3-large w3-text-black"></i>July 2021 - December 2021</p>
+            <p><i class="fa fa-building fa-fw w3-margin-right w3-large w3-text-black"></i>Icopi Cafe, Penang</p>
+            <hr>
+        </div>
+    </div>
+</div> 
+    
+<div id="languages" class="w3-container w3-container w3-row">
+
+    <div class="languages w3-container"style="background-color: #D6EAF8">
+        <b><h2>Languages</h2></b>
+    </div>
+       <p>Chinese</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-grey" style="height:20px;width:100%">100%</div>
+       </div>
+       <p>Malay</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-grey" style="height:20px;width:80%">80%</div>
+       </div>
+
+       <p>English</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-grey" style="height:20px;width:70%">70%</div>
+       </div>
+       <br>
+</div>
+       
+<div id="skills" class="w3-container w3-container w3-row">
+
+    <div class="skills w3-container"style="background-color: #D6EAF8">
+        <b><h2>Skills</h2></b>
+    </div>
+        <div>
+        <p class="w3-large w3-text-theme"><b>Microsoft</b></p>
+            <p>Microsoft Word</p>
+            <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">85%</div>
+            </div>
+            
+            <p>Microsoft Excel</p>
+            <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:70%">70%</div>
+            </div>
+            
+            <p>Microsoft PowerPoint</p>
+            <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:80%">80%</div>
+            </div>
+            <br>
+</div>
+
+<footer>
+    <p class="w3-container w3-center w3-margin-top"style="background-color: #D6EAF8">Copyright Tan Jia Kee&copy;</p>
+</footer>
+
+</body>
+</html>
